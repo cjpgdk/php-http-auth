@@ -1,0 +1,13 @@
+exclude_paths:
+- "docs/"
+- "tests/"
+- "sample-site/"
+engines:
+  eslint:
+    enabled: false
+  csslint:
+    enabled: false
+  csslint:
+    enabled: false
+  scss-lint:
+    enabled: false
