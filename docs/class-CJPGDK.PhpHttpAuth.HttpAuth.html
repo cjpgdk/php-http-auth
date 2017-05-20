@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class CJPGDK\PhpHttpAuth\HttpAuth | PhpHttpAuth</title>
+
+	<link rel="stylesheet" href="resources/style.css?c2f33731c1948fbed7c333554678bfa68d4817da">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li class="active">
+					<a href="namespace-CJPGDK.html">
+						CJPGDK<span></span>
+					</a>
+
+						<ul>
+				<li class="active">
+					<a href="namespace-CJPGDK.PhpHttpAuth.html">
+						PhpHttpAuth<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-CJPGDK.PhpHttpAuth.Database.html">
+						Database					</a>
+
+						</li>
+				<li>
+					<a href="namespace-CJPGDK.PhpHttpAuth.Hash.html">
+						Hash					</a>
+
+						</li>
+							</ul></li></ul></li>
+				<li>
+					<a href="namespace-PHP.html">
+						PHP					</a>
+
+						</li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-CJPGDK.PhpHttpAuth.HttpAuth.html">HttpAuth</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-CJPGDK.PhpHttpAuth.html" title="Summary of CJPGDK\PhpHttpAuth"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+				<li>
+					<a href="annotation-group-deprecated.html" title="List of elements with deprecated annotation">
+						<span>Deprecated</span>
+					</a>
+				</li>
+				<li>
+					<a href="annotation-group-todo.html" title="List of elements with todo annotation">
+						<span>Todo</span>
+					</a>
+				</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class HttpAuth</h1>
+
+
+	<div class="description">
+	<p>PHP Library to make use of HTTP Authentication</p>
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+<b><span>CJPGDK\PhpHttpAuth\HttpAuth</span></b>			
+			
+			 uses 
+					<a href="class-CJPGDK.PhpHttpAuth.Hash.Bcrypt.html"><span>CJPGDK\PhpHttpAuth\Hash\Bcrypt</span></a>, 
+			
+					<a href="class-CJPGDK.PhpHttpAuth.Hash.Sha.html"><span>CJPGDK\PhpHttpAuth\Hash\Sha</span></a>, 
+			
+					<a href="class-CJPGDK.PhpHttpAuth.Hash.Apr1Md5.html"><span>CJPGDK\PhpHttpAuth\Hash\Apr1Md5</span></a>
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-CJPGDK.html">CJPGDK</a>\<a href="namespace-CJPGDK.PhpHttpAuth.html">PhpHttpAuth</a><br>
+		<b>Package:</b> CJPGDK\PhpHttpAuth<br>
+
+				<b>Copyright:</b>
+				(c) 2017, Christian M. Jensen <a href="ma&#105;&#108;&#116;&#111;&#58;&#99;&#109;&#106;&#64;&#99;&#106;&#x70;&#x67;&#x2e;&#x64;&#x6b;">&#99;&#109;&#106;&#64;&#99;&#106;&#x70;&#x67;&#x2e;&#x64;&#x6b;</a><br>
+				<b>License:</b>
+				<a href="https://cjpg.dk/the-mit-license/">The MIT License</a><br>
+				<b>Author:</b>
+				Christian M. Jensen <a href="ma&#105;&#108;&#116;&#111;&#58;&#99;&#109;&#106;&#64;&#99;&#106;&#x70;&#x67;&#x2e;&#x64;&#x6b;">&#99;&#109;&#106;&#64;&#99;&#106;&#x70;&#x67;&#x2e;&#x64;&#x6b;</a><br>
+				<b>Version:</b>
+				1.0.0<br>
+			<b>Located at</b> <a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#11-500" title="Go to source code">src/CJPGDK/PhpHttpAuth/HttpAuth.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#60-63" title="Go to source code">__construct</a>( <span><code><a href="class-CJPGDK.PhpHttpAuth.Database.DB.html">CJPGDK\PhpHttpAuth\Database\DB</a></code> <var>$db</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="updateUser" id="_updateUser">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_updateUser">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#65-80" title="Go to source code">updateUser</a>( <span>string <var>$name</var></span>, <span>string <var>$passwd</var></span>, <span>boolean <var>$save</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			<p>Update a users password.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Update a users password.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd></dd>
+					<dt><var>$passwd</var></dt>
+					<dd></dd>
+					<dt><var>$save</var></dt>
+					<dd>save changes to users backend</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="deleteUser" id="_deleteUser">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_deleteUser">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#82-96" title="Go to source code">deleteUser</a>( <span>string <var>$name</var></span>, <span>boolean <var>$save</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			<p>Delete a user from the users store</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Delete a user from the users store</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd></dd>
+					<dt><var>$save</var></dt>
+					<dd>save changes to users backend</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUsers" id="_getUsers">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUsers">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#98-113" title="Go to source code">getUsers</a>( )</code>
+
+		<div class="description short">
+			<p>Get all users. (paswords are replaced with 'hidden')</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get all users. (paswords are replaced with 'hidden')</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getInstance" id="_getInstance">
+
+		<td class="attributes"><code>
+			 public static
+
+			<code><a href="class-CJPGDK.PhpHttpAuth.HttpAuth.html">CJPGDK\PhpHttpAuth\HttpAuth</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getInstance">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#115-130" title="Go to source code">getInstance</a>( <span>boolean <var>$new</var> = <span class="php-keyword1">false</span></span>, <span><code><a href="class-CJPGDK.PhpHttpAuth.Database.DB.html">CJPGDK\PhpHttpAuth\Database\DB</a></code> <var>$db</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			<p>Get an instance of this class, and cache the object for future use.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get an instance of this class, and cache the object for future use.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$new</var></dt>
+					<dd>get as new instance or use existing.</dd>
+					<dt><var>$db</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-CJPGDK.PhpHttpAuth.HttpAuth.html">CJPGDK\PhpHttpAuth\HttpAuth</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setUsersFile" id="_setUsersFile">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setUsersFile">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#132-154" title="Go to source code">setUsersFile</a>( <span>string <var>$htpasswd</var></span> )</code>
+
+		<div class="description short">
+			<p>set the full/relative path to htpasswd file, to use for
+authenticating users.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>set the full/relative path to htpasswd file, to use for
+authenticating users.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$htpasswd</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="savePasswdFile" id="_savePasswdFile">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_savePasswdFile">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#156-174" title="Go to source code">savePasswdFile</a>( <span>string <var>$htpasswd</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			<p>Save all users to a password file.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Save all users to a password file.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$htpasswd</var></dt>
+					<dd>[optional] path to password file</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="appendUsers" id="_appendUsers">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_appendUsers">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#176-198" title="Go to source code">appendUsers</a>( <span>array <var>$users</var></span>, <span>boolean <var>$save</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			<p>Append new users to the existing users table.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Append new users to the existing users table.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$users</var></dt>
+					<dd></dd>
+					<dt><var>$save</var></dt>
+					<dd>save changes to users backend</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setUsers" id="_setUsers">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setUsers">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#200-222" title="Go to source code">setUsers</a>( <span>array <var>$users</var></span>, <span>boolean <var>$save</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			<p>Set available users</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set available users</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$users</var></dt>
+					<dd></dd>
+					<dt><var>$save</var></dt>
+					<dd>save changes to users backend</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addUser" id="_addUser">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addUser">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#224-241" title="Go to source code">addUser</a>( <span>string <var>$name</var></span>, <span>string <var>$passwd</var></span>, <span>boolean <var>$save</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			<p>Add a new user to the user table</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add a new user to the user table</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd></dd>
+					<dt><var>$passwd</var></dt>
+					<dd></dd>
+					<dt><var>$save</var></dt>
+					<dd>save changes to users backend</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUserPassword" id="_getUserPassword">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUserPassword">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#243-260" title="Go to source code">getUserPassword</a>( <span>string <var>$username</var></span> )</code>
+
+		<div class="description short">
+			<p>Get password for a user.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get password for a user.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$username</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUsername" id="_getUsername">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUsername">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#262-279" title="Go to source code">getUsername</a>( <span>string <var>$username</var></span> )</code>
+
+		<div class="description short">
+			<p>Get the username of username if it exists in the user table. if no user is found returns an empty string</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get the username of username if it exists in the user table. if no user is found returns an empty string</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$username</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="whoAmI" id="_whoAmI">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_whoAmI">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#281-288" title="Go to source code">whoAmI</a>( )</code>
+
+		<div class="description short">
+			<p>get the username of the currently authenticated user</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>get the username of the currently authenticated user</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hasValidCredentials" id="_hasValidCredentials">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hasValidCredentials">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#290-309" title="Go to source code">hasValidCredentials</a>( <span>string <var>$realm</var> = <span class="php-quote">'Restricted area'</span></span> )</code>
+
+		<div class="description short">
+			<p>Check if the visitor has send us some credentials</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check if the visitor has send us some credentials</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$realm</var></dt>
+					<dd>[optional]</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="authBasic" id="_authBasic">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_authBasic">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#311-339" title="Go to source code">authBasic</a>( <span>string <var>$realm</var> = <span class="php-quote">'Restricted area'</span></span>, <span>string <var>$message</var> = <span class="php-quote">'Restricted area'</span></span> )</code>
+
+		<div class="description short">
+			<p>Send headers requesting http auth basic,
+if the user hits cancel the text from
+$message will be displayed and the script dies</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Send headers requesting http auth basic,
+if the user hits cancel the text from
+$message will be displayed and the script dies</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$realm</var></dt>
+					<dd>[optional] the realm the visitor need valid credentials to roam</dd>
+					<dt><var>$message</var></dt>
+					<dd>[optional] message to show the visitor if the visitor did not authticate</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean<br>true if the visitor has used a valid authtication
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="requestReAuthBasic" id="_requestReAuthBasic">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_requestReAuthBasic">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#341-351" title="Go to source code">requestReAuthBasic</a>( <span>string <var>$realm</var> = <span class="php-quote">'Restricted area'</span></span>, <span>string <var>$message</var> = <span class="php-quote">'Restricted area'</span></span> )</code>
+
+		<div class="description short">
+			<p>request the visitor to authenticate again, ignoring the current user and password set</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>request the visitor to authenticate again, ignoring the current user and password set</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$realm</var></dt>
+					<dd>[optional] the realm the visitor need valid credentials to roam</dd>
+					<dt><var>$message</var></dt>
+					<dd>[optional]</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="matchPasswd" id="_matchPasswd">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_matchPasswd">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#353-373" title="Go to source code">matchPasswd</a>( <span>string <var>$plain</var></span>, <span>string <var>$hash</var></span>, <span>boolean <var>$allowPlain</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			<p>check the password matches APR1-MD5, SHA1, Bcrypt or if allowed plain text</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>check the password matches APR1-MD5, SHA1, Bcrypt or if allowed plain text</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$plain</var></dt>
+					<dd>plain text password</dd>
+					<dt><var>$hash</var></dt>
+					<dd>hashed password.</dd>
+					<dt><var>$allowPlain</var></dt>
+					<dd>[optional] allow plain text passwords.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateAuthDigestResponse" id="_validateAuthDigestResponse">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateAuthDigestResponse">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#375-403" title="Go to source code">validateAuthDigestResponse</a>( <span>string <var>$realm</var> = <span class="php-quote">'Restricted area'</span></span>, <span>array|null <var>$data</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			<p>Validate an wuthentication request using auth digest</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Validate an wuthentication request using auth digest</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$realm</var></dt>
+					<dd>the realm the visitor need valid credentials to roam</dd>
+					<dt><var>$data</var></dt>
+					<dd>[optional]</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="authDigestGetUserDetails" id="_authDigestGetUserDetails">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean|array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_authDigestGetUserDetails">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#405-427" title="Go to source code">authDigestGetUserDetails</a>( )</code>
+
+		<div class="description short">
+			<p>Get user details from auth digest request</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get user details from auth digest request</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean|array<br>returns boolean false on authentication error
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="requestReAuthDigest" id="_requestReAuthDigest">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_requestReAuthDigest">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#429-446" title="Go to source code">requestReAuthDigest</a>( <span>string <var>$realm</var> = <span class="php-quote">'Restricted area'</span></span>, <span>string <var>$message</var> = <span class="php-quote">'Restricted area'</span></span> )</code>
+
+		<div class="description short">
+			<p>Send headers requesting http auth digest,
+if the user hits cancel the text from
+$message will be displayed and the script dies</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Send headers requesting http auth digest,
+if the user hits cancel the text from
+$message will be displayed and the script dies</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$realm</var></dt>
+					<dd>[optional] the realm the visitor need valid credentials to roam</dd>
+					<dt><var>$message</var></dt>
+					<dd>[optional]</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<br>No value is returned.
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="authDigest" id="_authDigest">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_authDigest">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#448-463" title="Go to source code">authDigest</a>( <span>string <var>$realm</var> = <span class="php-quote">'Restricted area'</span></span>, <span>string <var>$message</var> = <span class="php-quote">'Restricted area'</span></span> )</code>
+
+		<div class="description short">
+			<p>Send headers requesting http auth digest,
+if the user hits cancel the tekst from
+$message will be displayed and the script dies</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Send headers requesting http auth digest,
+if the user hits cancel the tekst from
+$message will be displayed and the script dies</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$realm</var></dt>
+					<dd>[optional] the realm the visitor need valid credentials to roam</dd>
+					<dt><var>$message</var></dt>
+					<dd>[optional]</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<br>No value is returned.
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getServerVariableValue" id="_getServerVariableValue">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getServerVariableValue">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#465-475" title="Go to source code">getServerVariableValue</a>( <span>string <var>$name</var></span>, <span>mixed <var>$default</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			<p>Get the value of _SERVER variable by name</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get the value of _SERVER variable by name</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd>a name to find in the server variable.</dd>
+					<dt><var>$default</var></dt>
+					<dd>[optional] default value to return if server variable is not set</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="send401Unauthorized" id="_send401Unauthorized">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_send401Unauthorized">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#477-485" title="Go to source code">send401Unauthorized</a>( )</code>
+
+		<div class="description short">
+			<p>Send a 401 Unauthorized header</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Send a 401 Unauthorized header</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<br>No value is returned.
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sendHeader" id="_sendHeader">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sendHeader">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#487-499" title="Go to source code">sendHeader</a>( <span>string <var>$string</var></span>, <span>boolean <var>$replace</var> = <span class="php-keyword1">true</span></span>, <span>integer <var>$http_response_code</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			<p>Send a raw HTTP header</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Send a raw HTTP header</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd>The header string.</dd>
+					<dt><var>$replace</var></dt>
+					<dd>[optional]</dd>
+					<dt><var>$http_response_code</var></dt>
+					<dd>[optional]</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<br>No value is returned.
+				</div>
+
+
+				<h4>Link</h4>
+				<div class="list">
+						<a href="http://php.net/manual/en/function.header.php">http://php.net/manual/en/function.header.php</a><br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+	<table class="summary used">
+	<caption>Methods used from <a href="class-CJPGDK.PhpHttpAuth.Hash.Bcrypt.html#methods">CJPGDK\PhpHttpAuth\Hash\Bcrypt</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-CJPGDK.PhpHttpAuth.Hash.Bcrypt.html#_createUserBcrypt">createUserBcrypt()</a>, 
+			<a href="class-CJPGDK.PhpHttpAuth.Hash.Bcrypt.html#_getBcryptHash">getBcryptHash()</a>, 
+			<a href="class-CJPGDK.PhpHttpAuth.Hash.Bcrypt.html#_getBcryptHtpasswdRow">getBcryptHtpasswdRow()</a>, 
+			<a href="class-CJPGDK.PhpHttpAuth.Hash.Bcrypt.html#_matchBcryptHash">matchBcryptHash()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary used">
+	<caption>Methods used from <a href="class-CJPGDK.PhpHttpAuth.Hash.Sha.html#methods">CJPGDK\PhpHttpAuth\Hash\Sha</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-CJPGDK.PhpHttpAuth.Hash.Sha.html#_createUserSha">createUserSha()</a>, 
+			<a href="class-CJPGDK.PhpHttpAuth.Hash.Sha.html#_getShaHash">getShaHash()</a>, 
+			<a href="class-CJPGDK.PhpHttpAuth.Hash.Sha.html#_getShaHtpasswdRow">getShaHtpasswdRow()</a>, 
+			<a href="class-CJPGDK.PhpHttpAuth.Hash.Sha.html#_matchShaHash">matchShaHash()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary used">
+	<caption>Methods used from <a href="class-CJPGDK.PhpHttpAuth.Hash.Apr1Md5.html#methods">CJPGDK\PhpHttpAuth\Hash\Apr1Md5</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-CJPGDK.PhpHttpAuth.Hash.Apr1Md5.html#_createUserApr1Md5">createUserApr1Md5()</a>, 
+			<a href="class-CJPGDK.PhpHttpAuth.Hash.Apr1Md5.html#_getApr1Md5Hash">getApr1Md5Hash()</a>, 
+			<a href="class-CJPGDK.PhpHttpAuth.Hash.Apr1Md5.html#_getApr1Md5HtpasswdRow">getApr1Md5HtpasswdRow()</a>, 
+			<a href="class-CJPGDK.PhpHttpAuth.Hash.Apr1Md5.html#_matchApr1Md5Hash">matchApr1Md5Hash()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="allowPlainPassword" id="$allowPlainPassword">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CJPGDK.PhpHttpAuth.HttpAuth.html#40-44" title="Go to source code"><var>$allowPlainPassword</var></a>
+
+			<div class="description short">
+				<p>Allow login by plain text passwords</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Allow login by plain text passwords</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$allowPlainPassword" class="anchor">#</a>
+				<code><span class="php-keyword1">false</span></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		PhpHttpAuth API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

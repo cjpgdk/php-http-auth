@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Trait CJPGDK\PhpHttpAuth\Hash\Md5 | PhpHttpAuth</title>
+
+	<link rel="stylesheet" href="resources/style.css?c2f33731c1948fbed7c333554678bfa68d4817da">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li class="active">
+					<a href="namespace-CJPGDK.html">
+						CJPGDK<span></span>
+					</a>
+
+						<ul>
+				<li class="active">
+					<a href="namespace-CJPGDK.PhpHttpAuth.html">
+						PhpHttpAuth<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-CJPGDK.PhpHttpAuth.Database.html">
+						Database					</a>
+
+						</li>
+				<li class="active">
+					<a href="namespace-CJPGDK.PhpHttpAuth.Hash.html">
+						Hash					</a>
+
+						</li>
+							</ul></li></ul></li>
+				<li>
+					<a href="namespace-PHP.html">
+						PHP					</a>
+
+						</li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+
+
+			<h3>Traits</h3>
+			<ul>
+				<li><a href="class-CJPGDK.PhpHttpAuth.Hash.Apr1Md5.html">Apr1Md5</a></li>
+				<li><a href="class-CJPGDK.PhpHttpAuth.Hash.Bcrypt.html">Bcrypt</a></li>
+				<li class="active"><a href="class-CJPGDK.PhpHttpAuth.Hash.Md5.html">Md5</a></li>
+				<li><a href="class-CJPGDK.PhpHttpAuth.Hash.Sha.html">Sha</a></li>
+			</ul>
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-CJPGDK.PhpHttpAuth.Hash.html" title="Summary of CJPGDK\PhpHttpAuth\Hash"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+				<li>
+					<a href="annotation-group-deprecated.html" title="List of elements with deprecated annotation">
+						<span>Deprecated</span>
+					</a>
+				</li>
+				<li>
+					<a href="annotation-group-todo.html" title="List of elements with todo annotation">
+						<span>Todo</span>
+					</a>
+				</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Trait Md5</h1>
+
+
+	<div class="description">
+	<p>Provides PHP methods for MD5 hashing</p>
+
+<p>this type of hasing is not supported by real htpasswd authentication
+added as a sample, and because it was need in an other project.</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-CJPGDK.html">CJPGDK</a>\<a href="namespace-CJPGDK.PhpHttpAuth.html">PhpHttpAuth</a>\<a href="namespace-CJPGDK.PhpHttpAuth.Hash.html">Hash</a><br>
+		<b>Package:</b> CJPGDK\PhpHttpAuth<br>
+
+				<b>Author:</b>
+				Christian M. Jensen <a href="ma&#105;&#108;&#116;&#111;&#58;&#99;&#109;&#106;&#64;&#99;&#106;&#x70;&#x67;&#x2e;&#x64;&#x6b;">&#99;&#109;&#106;&#64;&#99;&#106;&#x70;&#x67;&#x2e;&#x64;&#x6b;</a><br>
+				<b>Version:</b>
+				1.0.0<br>
+				<b>Since:</b>
+				1.0.0<br>
+			<b>Located at</b> <a href="source-class-CJPGDK.PhpHttpAuth.Hash.Md5.html#5-65" title="Go to source code">src/CJPGDK/PhpHttpAuth/Hash/Md5.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="getMd5HtpasswdRow" id="_getMd5HtpasswdRow">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMd5HtpasswdRow">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.Hash.Md5.html#20-32" title="Go to source code">getMd5HtpasswdRow</a>( <span>array|string <var>$user</var></span>, <span>null|string <var>$hashedpwd</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			<p>format username and password array to a '.htpasswd' line</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>format username and password array to a '.htpasswd' line</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$user</var></dt>
+					<dd>as array ['username' => , 'password'=>], or a user name with passwd</dd>
+					<dt><var>$hashedpwd</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createUserMd5" id="_createUserMd5">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createUserMd5">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.Hash.Md5.html#34-43" title="Go to source code">createUserMd5</a>( <span>string <var>$user</var></span>, <span>string <var>$pwd</var></span> )</code>
+
+		<div class="description short">
+			<p>Create a user and password row.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Create a user and password row.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$user</var></dt>
+					<dd></dd>
+					<dt><var>$pwd</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array<br>['username' => , 'password'=>]
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getMd5Hash" id="_getMd5Hash">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMd5Hash">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.Hash.Md5.html#45-53" title="Go to source code">getMd5Hash</a>( <span>string <var>$plainpasswd</var></span> )</code>
+
+		<div class="description short">
+			<p>Get an md5 hash</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get an md5 hash</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$plainpasswd</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="matchMd5Hash" id="_matchMd5Hash">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_matchMd5Hash">#</a>
+		<code><a href="source-class-CJPGDK.PhpHttpAuth.Hash.Md5.html#55-64" title="Go to source code">matchMd5Hash</a>( <span>string <var>$plain</var></span>, <span>string <var>$hash</var></span> )</code>
+
+		<div class="description short">
+			<p>Validate an md5 hash</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Validate an md5 hash</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$plain</var></dt>
+					<dd></dd>
+					<dt><var>$hash</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		PhpHttpAuth API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+    "name": "cjpgdk/php-http-auth",
+    "description": "PHP Library to make use of HTTP Authentication",
+    "homepage": "https://cjpg.dk/small-projects/phphttpauth/",
+    "version": "1.0.0",
+    "license": {
+        "type": "MIT",
+        "url": "https://cjpg.dk/the-mit-license/"
+    },
+    "authors": [
+        {
+            "name": "Christian M. Jensen",
+            "email": "cmj@cjpg.dk"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "CJPGDK\\PhpHttpAuth\\": "src"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cjpgdk/php-http-auth.git"
+    }
+}
