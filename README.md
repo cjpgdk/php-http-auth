@@ -3,7 +3,6 @@ PHP Library to make use of HTTP Authentication
 
 [![Build Status](https://travis-ci.org/cjpgdk/php-http-auth.svg?branch=master)](https://travis-ci.org/cjpgdk/php-http-auth)
 [![Code Climate](https://codeclimate.com/github/cjpgdk/php-http-auth/badges/gpa.svg)](https://codeclimate.com/github/cjpgdk/php-http-auth)
-[![Test Coverage](https://codeclimate.com/github/cjpgdk/php-http-auth/badges/coverage.svg)](https://codeclimate.com/github/cjpgdk/php-http-auth/coverage)
 [![Issue Count](https://codeclimate.com/github/cjpgdk/php-http-auth/badges/issue_count.svg)](https://codeclimate.com/github/cjpgdk/php-http-auth)
 
 this project where created based on a different private project so decided to create
