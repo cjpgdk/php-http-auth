@@ -4,10 +4,14 @@
     "homepage": "https://cjpg.dk/small-projects/phphttpauth/",
     "version": "1.0.0",
     "license": "MIT",
+    "type": "library",
+    "keywords": ["http auth","auth basic", "auth"],
     "authors": [
         {
             "name": "Christian M. Jensen",
             "email": "cmj@cjpg.dk"
+            "homepage": "http://cjpg.dk",
+            "role": "Developer"
         }
     ],
     "require": {
